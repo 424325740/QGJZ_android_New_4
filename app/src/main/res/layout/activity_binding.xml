@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:background="@color/whit"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:text="真实姓名："
+            android:textColor="@color/mytext_1"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/et_binding_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_96PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:background="@color/whit"
+            android:gravity="center_vertical|right"
+            android:hint="请输入真实姓名"
+            android:paddingRight="@dimen/DIMEN_28PX"
+            android:textColor="@color/mytext_1"
+            android:textColorHint="@color/mytext_3"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="@color/lines" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:background="@color/whit"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:text="支付宝账号："
+            android:textColor="@color/mytext_1"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <EditText
+            android:id="@+id/et_binding_zh"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_96PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:background="@color/whit"
+            android:gravity="center_vertical|right"
+            android:hint="请输入对应的支付宝账号"
+            android:paddingRight="@dimen/DIMEN_28PX"
+            android:textColor="@color/mytext_1"
+            android:textColorHint="@color/mytext_3"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="@color/lines" />
+
+    <TextView
+        android:id="@+id/tv_binding_comment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_90PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_60PX"
+        android:background="@drawable/bg_binding_comment_no"
+        android:gravity="center"
+        android:text="保存"
+        android:textColor="@color/whit"
+        android:textSize="@dimen/DIMEN_30PX" />
+</LinearLayout>

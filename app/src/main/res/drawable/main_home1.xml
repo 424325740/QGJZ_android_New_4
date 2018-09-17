@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 被选中的图片 -->
+    <item android:drawable="@mipmap/icon_zhuye_pre" android:state_checked="true"></item>
+
+    <!-- 默认图片 -->
+    <item android:drawable="@mipmap/icon_zhuye_nor" android:state_checked="false">
+
+    </item>
+</selector>

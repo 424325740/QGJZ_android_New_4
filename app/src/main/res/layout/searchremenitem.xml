@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="@dimen/DIMEN_20PX"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/DIMEN_56PX"
+        android:text="游泳"
+        android:background="@drawable/yuanjiaohome"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:gravity="center"
+        android:paddingLeft="@dimen/DIMEN_30PX"
+        android:paddingRight="@dimen/DIMEN_30PX"
+        android:textColor="@color/mytext_2"
+
+        />
+</LinearLayout>

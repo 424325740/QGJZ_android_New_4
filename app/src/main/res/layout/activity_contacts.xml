@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@drawable/bjyuanjiao">
+        <LinearLayout
+            android:id="@+id/llContactsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人姓名"
+                android:textSize="@dimen/DIMEN_32PX"
+                android:textColor="@color/mytext_1"
+                />
+
+            <TextView
+                android:id="@+id/tvContactsName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="@dimen/DIMEN_32PX"
+                android:textColor="@color/mytext_1"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:background="#f5f5f5"/>
+        <LinearLayout
+            android:id="@+id/llContactsPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人手机号"
+                android:textSize="@dimen/DIMEN_32PX"
+                android:textColor="@color/mytext_1"
+                />
+
+            <TextView
+                android:id="@+id/tvContactsPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="@dimen/DIMEN_32PX"
+                android:textColor="@color/mytext_1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注:  联系人用于紧急情况时，平台提供的信息资料"
+        android:textSize="12sp"
+        android:textColor="#999999"/>
+
+</LinearLayout>

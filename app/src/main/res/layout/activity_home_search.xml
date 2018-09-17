@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.home.HomeSearchActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_88PX"
+        android:background="#FFFFFF">
+        <ImageView
+            android:id="@+id/iv_finsh"
+            android:layout_width="@dimen/DIMEN_18PX"
+            android:layout_height="@dimen/DIMEN_30PX"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:src="@mipmap/icon_back"/>
+        <LinearLayout
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/DIMEN_64PX"
+            android:background="@drawable/yuanjiaohome"
+            android:layout_marginRight="@dimen/DIMEN_30PX">
+            <ImageView
+                android:layout_width="@dimen/DIMEN_24PX"
+                android:layout_height="@dimen/DIMEN_26PX"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/icon_search_black"
+                android:layout_marginLeft="@dimen/DIMEN_30PX"
+                />
+            <EditText
+                android:id="@+id/ed_search"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginLeft="@dimen/DIMEN_10PX"
+                android:hint="请输入你想搜索的类型"
+                android:background="@null"
+                android:textSize="13sp"
+                android:textColor="#666666"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f5f5f5"/>
+    <LinearLayout
+        android:visibility="gone"
+        app:layout_scrollFlags="exitUntilCollapsed"
+        android:layout_width="match_parent"
+        android:background="#f5f5f5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#f5f5f5"
+            android:gravity="center">
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownButton
+                android:id="@+id/dbOne"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownButton
+                android:id="@+id/dbTwo"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownButton
+                android:id="@+id/dbThree"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </com.qigaikj.parttimejob.ropdownmenu.DropdownButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <FrameLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv_YueTA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f5f5f5" />
+
+        <View
+            android:id="@+id/mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical">
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownListView
+                android:id="@+id/dropdownType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownListView
+                android:id="@+id/dropdownLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownListView
+                android:id="@+id/dropdownShaiXuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="#fd6a6a"
+            app:tabTextColor="@color/mytext_2" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@android:color/white" />
+</LinearLayout>

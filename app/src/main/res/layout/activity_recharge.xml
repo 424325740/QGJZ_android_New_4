@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:text="充值金额"
+        android:textColor="#333333"
+        android:textSize="@dimen/DIMEN_30PX" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_20PX"
+        android:background="@drawable/bjyuanjiao"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/DIMEN_30PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/DIMEN_184PX"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="50元"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="赠50"
+                android:textColor="#fd6a6a"
+                android:textSize="@dimen/DIMEN_20PX" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/DIMEN_184PX"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:layout_marginLeft="@dimen/DIMEN_24PX"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="100元"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="赠100"
+                    android:textColor="#fd6a6a"
+                    android:textSize="@dimen/DIMEN_20PX" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="@dimen/DIMEN_184PX"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:layout_marginLeft="@dimen/DIMEN_24PX"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="200元"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="赠200"
+                    android:textColor="#fd6a6a"
+                    android:textSize="@dimen/DIMEN_20PX" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/DIMEN_30PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/DIMEN_184PX"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="300元"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="赠300"
+                    android:textColor="#fd6a6a"
+                    android:textSize="@dimen/DIMEN_20PX" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/DIMEN_184PX"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:layout_marginLeft="@dimen/DIMEN_24PX"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="500元"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="赠500"
+                    android:textColor="#fd6a6a"
+                    android:textSize="@dimen/DIMEN_20PX" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="@dimen/DIMEN_184PX"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:layout_marginLeft="@dimen/DIMEN_24PX"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1000元"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="赠1000"
+                    android:textColor="#fd6a6a"
+                    android:textSize="@dimen/DIMEN_20PX" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/DIMEN_30PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/DIMEN_184PX"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:background="@drawable/yuanjiao"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2000元"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="赠2000"
+                    android:textColor="#fd6a6a"
+                    android:textSize="@dimen/DIMEN_20PX" />
+            </LinearLayout>
+            <EditText
+                android:id="@+id/et_recharge_money"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:layout_marginLeft="@dimen/DIMEN_24PX"
+                android:layout_marginRight="@dimen/DIMEN_30PX"
+                android:background="@drawable/yuanjiao"
+                android:hint="请输入支付金额"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="#999999"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_20PX" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_40PX"
+        android:text="充值方式"
+        android:textColor="#333333"
+        android:textSize="@dimen/DIMEN_30PX" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_20PX"
+        android:background="@drawable/bjyuanjiao"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_120PX"
+            android:background="@color/whit"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/DIMEN_20PX"
+            android:paddingLeft="@dimen/DIMEN_30PX"
+            android:paddingTop="@dimen/DIMEN_20PX">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/DIMEN_20PX"
+                android:src="@mipmap/pic_weixin" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="微信充值"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_32PX" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="推荐安装微信5.0及以上版本使用"
+                    android:textSize="@dimen/DIMEN_25PX"
+
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_recharge_wx"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/DIMEN_30PX"
+                android:paddingRight="@dimen/DIMEN_30PX"
+                android:src="@mipmap/btn_select_pre" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:background="#f5f5f5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_120PX"
+            android:background="@color/whit"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/DIMEN_20PX"
+            android:paddingLeft="@dimen/DIMEN_30PX"
+            android:paddingTop="@dimen/DIMEN_20PX">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/DIMEN_20PX"
+                android:src="@mipmap/pic_zhifubao" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:text="支付宝充值"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_32PX" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="推荐支付宝用户使用"
+                    android:textSize="@dimen/DIMEN_25PX"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_recharge_zfb"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="@dimen/DIMEN_30PX"
+                android:paddingRight="@dimen/DIMEN_35PX"
+                android:src="@mipmap/btn_select_nor" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/tv_recharge_zhifu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_90PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_50PX"
+        android:background="@drawable/yuanjiaobut"
+        android:layout_marginBottom="@dimen/DIMEN_30PX"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/whit"
+        android:textSize="@dimen/DIMEN_30PX" />
+</LinearLayout>

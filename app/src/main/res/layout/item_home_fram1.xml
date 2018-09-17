@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/DIMEN_260PX"
+    android:background="@color/whit"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_item_home_fram1_image"
+        android:layout_width="@dimen/DIMEN_120PX"
+        android:layout_height="@dimen/DIMEN_120PX"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/DIMEN_30PX" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_260PX"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_96PX"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_frm1_title"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:maxEms="5"
+                android:paddingLeft="@dimen/DIMEN_30PX"
+                android:text="@string/cs"
+                android:textColor="@color/text_1"
+                android:textSize="@dimen/DIMEN_27PX" />
+
+            <TextView
+                android:id="@+id/tv_frm1_money"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical|right"
+                android:lines="1"
+                android:maxEms="5"
+                android:paddingRight="@dimen/DIMEN_30PX"
+                android:text="@string/cs"
+                android:textColor="@color/text_red"
+                android:textSize="@dimen/DIMEN_28PX" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_frm1_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DIMEN_28PX"
+                android:drawableLeft="@mipmap/icon_item_address"
+                android:drawablePadding="@dimen/DIMEN_5PX"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="1"
+                android:text="@string/cs"
+                android:textColor="@color/text_2"
+                android:textSize="@dimen/DIMEN_24PX" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_frm1_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_10PX"
+            android:layout_marginLeft="@dimen/DIMEN_28PX"
+            android:layout_marginTop="@dimen/DIMEN_10PX"
+            android:drawableLeft="@mipmap/icon_item_timer"
+            android:drawablePadding="@dimen/DIMEN_5PX"
+            android:text="10.12日-10.25日"
+            android:textColor="@color/text_2"
+            android:textSize="@dimen/DIMEN_24PX" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_frm1_paystale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/DIMEN_15PX"
+                android:layout_marginLeft="@dimen/DIMEN_30PX"
+                android:layout_marginTop="@dimen/DIMEN_15PX"
+                android:background="@drawable/bg_item_home_frm1_text"
+
+                android:paddingBottom="@dimen/DIMEN_5PX"
+                android:paddingLeft="@dimen/DIMEN_10PX"
+                android:paddingRight="@dimen/DIMEN_10PX"
+                android:paddingTop="@dimen/DIMEN_5PX"
+                android:text="日结"
+                android:textColor="@color/frm_item_1"
+                android:textSize="@dimen/DIMEN_26PX" />
+
+            <TextView
+                android:id="@+id/tv_frm1_paystale_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/DIMEN_15PX"
+                android:layout_marginLeft="@dimen/DIMEN_30PX"
+                android:layout_marginTop="@dimen/DIMEN_15PX"
+                android:background="@drawable/bg_item_home_frm1_text_2"
+
+                android:paddingBottom="@dimen/DIMEN_5PX"
+                android:paddingLeft="@dimen/DIMEN_10PX"
+                android:paddingRight="@dimen/DIMEN_10PX"
+                android:paddingTop="@dimen/DIMEN_5PX"
+                android:text="工资保障"
+                android:textColor="@color/frm_item_2"
+                android:textSize="@dimen/DIMEN_26PX" />
+
+            <TextView
+                android:id="@+id/tv_frm1_paystale_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/DIMEN_15PX"
+                android:layout_marginLeft="@dimen/DIMEN_30PX"
+                android:layout_marginTop="@dimen/DIMEN_15PX"
+                android:background="@drawable/bg_item_home_frm1_text_3"
+
+                android:paddingBottom="@dimen/DIMEN_5PX"
+                android:paddingLeft="@dimen/DIMEN_10PX"
+                android:paddingRight="@dimen/DIMEN_10PX"
+                android:paddingTop="@dimen/DIMEN_5PX"
+                android:text="企业认证"
+                android:textColor="@color/frm_item_3"
+                android:textSize="@dimen/DIMEN_26PX" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_frm1_juli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:paddingRight="@dimen/DIMEN_30PX"
+                android:text="20m"
+                android:textColor="@color/text_home_2"
+                android:textSize="@dimen/DIMEN_26PX" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:background="@color/lines" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent">
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:fadeScrollbars="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="个人认证"
+                android:textColor="@color/mytext_1"
+                android:textSize="@dimen/DIMEN_32PX"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/DIMEN_20PX"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/DIMEN_20PX"
+                >
+
+                <TextView
+                    android:id="@+id/tvRealName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_real_name"
+                    android:drawablePadding="@dimen/DIMEN_10PX"
+                    android:text="实名"
+                    android:gravity="center"
+                    android:padding="@dimen/DIMEN_20PX"
+                    />
+
+                <TextView
+                    android:id="@+id/tvSkill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_skill"
+                    android:drawablePadding="@dimen/DIMEN_10PX"
+                    android:text="技能"
+                    android:gravity="center"
+                    android:padding="@dimen/DIMEN_20PX"
+                    />
+                <TextView
+                    android:id="@+id/tvPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_phone"
+                    android:drawablePadding="@dimen/DIMEN_10PX"
+                    android:text="手机"
+                    android:gravity="center"
+                    android:padding="@dimen/DIMEN_20PX"
+                    />
+                <TextView
+                    android:id="@+id/tvWeChat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableTop="@mipmap/icon_wx"
+                    android:drawablePadding="@dimen/DIMEN_10PX"
+                    android:text="微信"
+                    android:gravity="center"
+                    android:padding="@dimen/DIMEN_20PX"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSkill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="技能"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_32PX"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="更多"
+                    android:gravity="right"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_24PX"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/jiantou"
+                    />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvSkill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:id="@+id/llDemand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="需求"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_32PX"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="更多"
+                    android:gravity="right"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_24PX"
+                    android:padding="10dp"
+                    android:drawableRight="@mipmap/jiantou"
+                    />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvDemand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:visibility="gone"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="自我介绍"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_32PX"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    />
+
+                <EditText
+                    android:id="@+id/etUserIntroduce"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:gravity="top"
+                    android:textSize="@dimen/DIMEN_20PX"
+                    android:maxLength="50"
+                    android:hint="请简单介绍您自己"
+                    android:textColor="@color/mytext_1"
+                    android:textColorHint="@color/mytext_2"
+                    android:background="@drawable/shape_background"
+                    android:focusable="false"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="个人资料"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_32PX"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUserId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ID  号：95279527"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_28PX"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUserJob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="职  业：迷途小书童"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_28PX"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUserBirthday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="生  日：1999-01-01"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_28PX"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUserAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="常住地：华府"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_28PX"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUserHeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="身     高：175cm"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_28PX"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUserSincerityNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="诚信值：300分"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_28PX"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

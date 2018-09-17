@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX">
+
+        <com.qigaikj.parttimejob.view.PtClearEditText
+            android:id="@+id/et_search_clear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_96PX"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:hint="请输入"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="@dimen/DIMEN_30PX"
+            android:paddingRight="@dimen/DIMEN_30PX"
+            android:singleLine="true"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <TextView
+            android:id="@+id/tv_search_sousuo"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/DIMEN_30PX"
+            android:paddingRight="@dimen/DIMEN_30PX"
+            android:text="搜索"
+            android:textColor="@color/my_details_yello"
+            android:textSize="@dimen/DIMEN_30PX"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="@color/lines" />
+
+    <ListView
+        android:id="@+id/lv_search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/DIMEN_1PX">
+
+    </ListView>
+</LinearLayout>

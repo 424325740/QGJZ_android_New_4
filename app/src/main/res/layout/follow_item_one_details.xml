@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white"
+    android:layout_marginTop="@dimen/DIMEN_1PX"
+    android:padding="@dimen/DIMEN_20PX">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_UserLogo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/icon_yueta" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginLeft="@dimen/DIMEN_20PX"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/DIMEN_24PX"
+            android:textColor="@color/mytext_1"
+            android:text="名字"
+            />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="555.00/小时"
+            android:textSize="@dimen/DIMEN_24PX"
+            android:textColor="@color/text_red"
+            />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="地址"
+            android:textSize="@dimen/DIMEN_20PX"
+            android:textColor="@color/mytext_3"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已关注"
+        android:textSize="@dimen/DIMEN_16PX"
+        android:textColor="@color/pink"
+        android:paddingBottom="@dimen/DIMEN_10PX"
+        android:paddingTop="@dimen/DIMEN_10PX"
+        android:paddingLeft="@dimen/DIMEN_20PX"
+        android:paddingRight="@dimen/DIMEN_20PX"
+        android:background="@drawable/bg_circular_pink"
+        android:layout_gravity="center_vertical"
+        />
+
+</LinearLayout>

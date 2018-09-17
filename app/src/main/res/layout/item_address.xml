@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_addressbook_item_title"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/DIMEN_48PX"
+        android:layout_weight="1.0"
+        android:background="@color/background"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/DIMEN_30PX"
+        android:text="A"
+        android:textColor="#999" />
+    <TextView
+        android:id="@+id/tv_address_city_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/DIMEN_30PX"
+        android:text="@string/cs"
+        android:textColor="@color/text_home_1"
+        android:textSize="@dimen/DIMEN_28PX" />
+</LinearLayout>

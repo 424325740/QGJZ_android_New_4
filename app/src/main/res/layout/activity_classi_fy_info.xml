@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        app:layout_scrollFlags="exitUntilCollapsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownButton
+                android:id="@+id/dbOne"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownButton
+                android:id="@+id/dbTwo"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownButton
+                android:id="@+id/dbThree"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lines" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!--<com.qigaikj.parttimejob.view.MyListView-->
+        <!--android:id="@+id/lv_YueTA"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:divider="@color/lines"-->
+        <!--android:layout_marginTop="@dimen/DIMEN_1PX"-->
+        <!--android:dividerHeight="1px"-->
+        <!--android:background="@color/white"-->
+        <!--android:fadeScrollbars="false"-->
+        <!--android:scrollbars="none">-->
+        <!--</com.qigaikj.parttimejob.view.MyListView>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv_YueTA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background"
+            />
+
+        <View
+            android:id="@+id/mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="200dp"
+            android:orientation="vertical">
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownListView
+                android:id="@+id/dropdownType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownListView
+                android:id="@+id/dropdownLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <com.qigaikj.parttimejob.ropdownmenu.DropdownListView
+                android:id="@+id/dropdownShaiXuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

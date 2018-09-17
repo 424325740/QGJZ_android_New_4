@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_180PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@color/white">
+
+        <CheckBox
+            android:id="@+id/cbCheckBox"
+            android:layout_width="@dimen/DIMEN_36PX"
+            android:layout_height="@dimen/DIMEN_36PX"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:button="@null"
+            android:background="@drawable/checkbox_style"
+             />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/DIMEN_120PX"
+            android:layout_height="@dimen/DIMEN_120PX"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:text="工程师"
+            android:textColor="@color/mytext_1"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="@dimen/DIMEN_100PX"
+                android:layout_height="@dimen/DIMEN_64PX"
+                android:layout_gravity="center"
+                android:background="@drawable/button_selected"
+                android:gravity="center"
+                android:text="消息"
+                android:textColor="#fd6a6a"
+                android:textSize="@dimen/DIMEN_24PX" />
+
+            <TextView
+                android:id="@+id/yongta"
+                android:layout_width="@dimen/DIMEN_100PX"
+                android:layout_height="@dimen/DIMEN_64PX"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/DIMEN_20PX"
+                android:background="@drawable/yuanjiaobut"
+                android:gravity="center"
+                android:text="付款"
+                android:textColor="@color/white"
+                android:textSize="@dimen/DIMEN_24PX" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

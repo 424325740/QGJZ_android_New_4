@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e63cec</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#e63cec</color>
+
+    //一级字体
+    <color name="mytext_1">#333333</color>
+    //二级字体
+    <color name="mytext_2">#666666</color>
+    //三级字体
+    <color name="mytext_3">#999999</color>
+
+    //透明色
+    <color name="transparent">#00FFFFFF</color>
+
+    //白色字体
+    <color name="whit">#ffffff</color>
+    <color name="black">#000000</color>
+
+    //红色字体
+    <color name="pink">#fd6a6a</color>
+
+    //蓝色主色调
+    <color name="my_Time_ye">#406aff</color>
+    //详情页面颜色
+    <color name="my_details_yello">#406aff</color>
+    //首页字体颜色
+    <color name="text_home">#666666</color>
+    <color name="text_home_1">#333333</color>
+    <color name="text_home_2">#999999</color>
+
+    <color name="text_red">#e20000</color>
+    //背景颜色
+    <color name="background">#ffffff</color>
+
+    //首页底部导航栏字体
+    <color name="buttom_text_yes">#fd6a6a</color>
+    <color name="buttom_text_no">#666666</color>
+    //首页item列表中数据标签c
+    <color name="frm_item_1">#999999</color>
+    <color name="frm_item_2">#099999 </color>
+    <color name="frm_item_3">#095099</color>
+    -----登陆-------
+    //登陆点击按钮背景色
+    <color name="login_blue">#14baff</color>
+    //获取验证码背景色
+    <color name="login_bg_yzm">#b8b8b8</color>
+    //登陆输入账号字体颜色
+    <color name="login_et_text">#999999</color>
+
+    //个人中心等级显示条颜色
+    <color name="progress_1">#acdeff</color>
+    <color name="progress_2">#f2f2f2</color>
+
+
+    //职位详情页面
+    <color name="details_title">#666666</color>
+
+    //我的兼职页面
+    <color name="qita">#ff6f6f</color>
+    <color name="yibaoming">#6fa2ff</color>
+    <color name="yiluyong">#e7c268</color>
+    <color name="wancheng">#d3d3d3</color>
+
+    //我的钱包
+    <color name="my_wallet_yello">#406aff</color>
+    <color name="my_wallet_item_money">#F6D14C</color>
+    <color name="my_wallet_item_money_room">#00E9F2</color>
+    
+    
+    //乞丐兼职修改后样式
+    <color name="start_blue">#e63cec</color>
+    <color name="end_blue">#ff2ba3</color>
+
+    <color name="my_blue">#406aff</color>
+    //重要内容
+    <color name="text_1">#333333</color>
+    <color name="text_2">#666666</color>
+    <color name="text_3">#999999</color>
+    //线条颜色
+    <color name="lines">#ffff</color>
+
+    //editText下划线
+    <color name="normal">#f2f2f2</color>
+    <color name="unnormal">#fd6a6a</color>
+
+    // -- 分类列表颜色值 -- //
+    <color name="classify_select">#Fd6a6a</color>
+    <color name="classify_normal">#666666</color>
+    <color name="classify_unnormal">#f2f2f2</color>
+    <color name="classify_unselect">#ffffff</color>
+
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.qigaikj.parttimejob.activity.home.MessageActivity"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+    <FrameLayout
+        android:id="@+id/subconversationlist"
+        android:name="io.rong.imkit.fragment.SubConversationListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<!--    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_148PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@drawable/bjyuanjiao">
+
+        <ImageView
+            android:id="@+id/xiaoxi"
+            android:layout_width="@dimen/DIMEN_88PX"
+            android:layout_height="@dimen/DIMEN_88PX"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:src="@mipmap/pic_rengong" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/xiaoxi"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:src="@mipmap/pic_red" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="74dp"
+            android:text="人工客服"
+            android:textColor="@color/mytext_1"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_148PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_20PX"
+        android:background="@drawable/bjyuanjiao">
+
+        <ImageView
+            android:id="@+id/xiao"
+            android:layout_width="@dimen/DIMEN_88PX"
+            android:layout_height="@dimen/DIMEN_88PX"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:src="@mipmap/pic_qigai" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/xiao"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:src="@mipmap/pic_red" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="74dp"
+            android:text="小乞丐"
+            android:textColor="@color/mytext_1"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_148PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_20PX"
+        android:background="@drawable/bjyuanjiao">
+
+        <ImageView
+            android:id="@+id/ni"
+            android:layout_width="@dimen/DIMEN_88PX"
+            android:layout_height="@dimen/DIMEN_88PX"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:src="@mipmap/pic_qigai" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ni"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="47dp"
+            android:src="@mipmap/pic_red" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="74dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小乞丐"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_30PX" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_20PX"
+                    android:text="健身"
+                    android:textColor="#fd6a6a"
+                    android:textSize="@dimen/DIMEN_24PX"/>
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="@dimen/DIMEN_10PX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="啊实打实打算"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/DIMEN_30PX"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="上午:9:52"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/yuanjiaobut"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/DIMEN_10PX"
+                    android:text="99+"
+                    android:textColor="#FFFFFF"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>-->
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--<external-path name="rc_external_path" path="."/>-->
+    <root-path path="" name="camera_photos" />(此方法更改可读取SD卡)
+</paths>

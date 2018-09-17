@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#f5f5f5"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bjyuanjiao"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX">
+        <TextView
+            android:id="@+id/tvUpdatePhone"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改手机号"
+            android:textSize="@dimen/DIMEN_32PX"
+            android:layout_marginTop="@dimen/DIMEN_1PX"
+            android:textColor="@color/mytext_1"
+            android:drawableRight="@mipmap/jiantou"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:background="#f5f5f5"/>
+        <TextView
+            android:id="@+id/tvUpDatePassward"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改密码"
+            android:textSize="@dimen/DIMEN_32PX"
+            android:layout_marginTop="@dimen/DIMEN_1PX"
+            android:textColor="@color/mytext_1"
+            android:drawableRight="@mipmap/jiantou"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    tools:context=".activity.JuaoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:layout_marginLeft="@dimen/DIMEN_30PX"
+                android:layout_marginRight="@dimen/DIMEN_30PX"
+                android:layout_marginTop="@dimen/DIMEN_30PX"
+                android:background="@drawable/bjyuanjiao"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/User_avator"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@mipmap/logo"
+                    app:civ_border_color="#ffffff"
+                    app:civ_border_width="@dimen/DIMEN_3PX" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/DIMEN_10PX"
+                    android:text="举报人"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_28PX" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/DIMEN_30PX"
+                android:layout_marginRight="@dimen/DIMEN_30PX"
+                android:layout_marginTop="@dimen/DIMEN_30PX"
+                android:background="@drawable/bjyuanjiao"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/DIMEN_30PX"
+                    android:paddingTop="@dimen/DIMEN_30PX"
+                    android:text="举报原因"
+                    android:textColor="@color/mytext_2"
+                    android:textSize="@dimen/DIMEN_30PX" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_30PX"
+                    android:layout_marginTop="@dimen/DIMEN_20PX">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:background="@drawable/yuanjiao"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/DIMEN_20PX"
+                        android:paddingRight="@dimen/DIMEN_20PX"
+                        android:text="提供服务与品类不符"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_26PX" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="@dimen/DIMEN_20PX"
+                        android:background="@drawable/yuanjiao"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/DIMEN_20PX"
+                        android:paddingRight="@dimen/DIMEN_20PX"
+                        android:text="微信欺诈"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_26PX" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="@dimen/DIMEN_20PX"
+                        android:background="@drawable/yuanjiao"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/DIMEN_20PX"
+                        android:paddingRight="@dimen/DIMEN_20PX"
+                        android:text="骚扰"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_26PX" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_30PX"
+                    android:layout_marginTop="@dimen/DIMEN_20PX">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:background="@drawable/yuanjiao"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/DIMEN_20PX"
+                        android:paddingRight="@dimen/DIMEN_20PX"
+                        android:text="线下毁约"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_26PX" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="@dimen/DIMEN_20PX"
+                        android:background="@drawable/yuanjiao"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/DIMEN_20PX"
+                        android:paddingRight="@dimen/DIMEN_20PX"
+                        android:text="色情"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_26PX" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="@dimen/DIMEN_20PX"
+                        android:background="@drawable/yuanjiao"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/DIMEN_20PX"
+                        android:paddingRight="@dimen/DIMEN_20PX"
+                        android:text="照片与本人不符"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_26PX" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/DIMEN_30PX"
+                    android:layout_marginTop="@dimen/DIMEN_20PX">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:background="@drawable/yuanjiao"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/DIMEN_20PX"
+                        android:paddingRight="@dimen/DIMEN_20PX"
+                        android:text="人身攻击"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_26PX" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="@dimen/DIMEN_20PX"
+                        android:background="@drawable/yuanjiao"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/DIMEN_20PX"
+                        android:paddingRight="@dimen/DIMEN_20PX"
+                        android:text="其他"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_26PX" />
+                </LinearLayout>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="@dimen/DIMEN_30PX"
+                    android:layout_marginRight="@dimen/DIMEN_30PX"
+                    android:layout_marginTop="@dimen/DIMEN_30PX"
+                    android:background="#f5f5f5"
+                    android:gravity="top"
+                    android:hint="请描述举报详细情况"
+                    android:paddingLeft="@dimen/DIMEN_20PX"
+                    android:paddingTop="@dimen/DIMEN_20PX"
+                    android:textColor="@color/mytext_3"
+                    android:textSize="@dimen/DIMEN_26PX" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/DIMEN_30PX">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/DIMEN_30PX"
+                        android:text="上传仲裁凭证"
+                        android:textColor="@color/mytext_2"
+                        android:textSize="@dimen/DIMEN_28PX" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/DIMEN_10PX"
+                        android:text="(最多9张)"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_24PX" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="97dp"
+                    android:layout_height="97dp"
+                    android:layout_marginLeft="@dimen/DIMEN_30PX"
+                    android:layout_marginTop="@dimen/DIMEN_20PX"
+                    android:src="@mipmap/pic_kuang" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/DIMEN_40PX" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:background="#f5f5f5" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.qigaikj.parttimejob">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 写入sdk -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读sdk -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 从SDCard读取数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    //语言权限
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    //相机调用权限
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    //百度地图添加权限
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    //微信所需权限
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    //QQ添加权限
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    //支付宝
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    //高德地图
+    //地图SDK（包含其搜索功能）需要的基础权限
+    <!-- 允许程序打开网络套接字 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序设置内置sd卡的写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许程序获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许程序访问WiFi网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序读写手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 必须的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 推荐的权限 -->
+    <!-- 添加如下权限，以便使用更多的第三方SDK和更精准的统计数据 -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <!-- <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <application
+        android:name=".util.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="NewApi">
+
+        <!-- android:theme="@style/NoActionBar" -->
+
+        //安卓7.0权限
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.qigaikj.parttimejob.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/rc_file_path"
+                tools:replace="android:resource" />
+        </provider>
+
+        <activity android:name=".activity.HelpActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            android:name="io.rong.fast.activity.ConversationListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.qigaikj.parttimejob"
+                    android:pathPrefix="/conversationlist"
+                    android:scheme="rong" />
+
+            </intent-filter>
+        </activity>
+        <!-- 聚合会话列表 -->
+        <activity
+            android:name=".activity.SubConversationListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.qigaikj.parttimejob"
+                    android:pathPrefix="/subconversationlist"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+
+        <!--  -->
+        <receiver
+            android:name=".rongyun.SealNotificationReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="io.rong.push.intent.MESSAGE_ARRIVED" />
+                <action android:name="io.rong.push.intent.MI_MESSAGE_ARRIVED" />
+                <action android:name="io.rong.push.intent.MESSAGE_CLICKED" />
+                <action android:name="io.rong.push.intent.MI_MESSAGE_CLICKED" />
+            </intent-filter>
+        </receiver>
+        <!-- 会话界面 -->
+        <activity
+            android:name=".activity.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.qigaikj.parttimejob"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
+
+        </activity>
+
+        //融云的推送
+        <activity
+            android:name=".activity.TestPushActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.qigaikj.parttimejob"
+                    android:pathPrefix="/push_message"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        //微信登录
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+
+        <activity-alias
+            android:name=".wxapi.WXEntryActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:targetActivity=".wxapi.WXEntryActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        //微信支付返回
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true" />
+        //QQ登录注册
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1105947309" />
+            </intent-filter>
+        </activity>
+        //QQ退出登陆
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        //高德地图
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="50635d9a463614c6d21b40224af4bd10">
+            //开发者申请的key
+        </meta-data>
+        <!-- 定位需要的服务 -->
+        <service android:name="com.amap.api.location.APSService" />
+        //更新下载任务
+        <service android:name=".DownLoadService" />
+        //监听融云网络状态变化
+        <receiver android:name=".NetworkReciver">
+            <intent-filter>
+                <action android:name="reciver_type" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <provider -->
+        <!-- android:name="com.huawei.hms.update.provider.UpdateProvider" -->
+        <!-- android:authorities="com.qigaikj.parttimejob.hms.update.provider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"></provider> -->
+        <!-- 第三方相关 :接收Push消息（注册、Push消息、Push连接状态）广播 -->
+        <!-- <receiver android:name="io.rong.push.platform.HMSReceiver"> -->
+        <!-- <intent-filter> &lt;!&ndash; 必须,用于接收token &ndash;&gt; -->
+        <!-- <action android:name="com.huawei.android.push.intent.REGISTRATION" /> -->
+        <!-- &lt;!&ndash; 必须，用于接收消息 &ndash;&gt; -->
+        <!-- <action android:name="com.huawei.android.push.intent.RECEIVE" /> -->
+        <!-- &lt;!&ndash; 可选，用于点击通知栏或通知栏上的按钮后触发onEvent回调 &ndash;&gt; -->
+        <!-- <action android:name="com.huawei.android.push.intent.CLICK" /> -->
+        <!-- &lt;!&ndash; 可选，查看push通道是否连接，不查看则不需要 &ndash;&gt; -->
+        <!-- <action android:name="com.huawei.intent.action.PUSH_STATE" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <receiver android:name="com.huawei.hms.support.api.push.PushEventReceiver"> -->
+        <!-- <intent-filter> -->
+        <!-- &lt;!&ndash; 接收通道发来的通知栏消息，兼容老版本Push &ndash;&gt; -->
+        <!-- <action android:name="com.huawei.intent.action.PUSH" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+
+        <!-- -—————————— 相关页面注册信息 —————————————————————— -->
+
+        //绑定手机号
+        <activity
+            android:name=".activity.BundPhoneActivity"
+            android:screenOrientation="portrait" />
+        //搜索职位
+        <activity
+            android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait" />
+        //我的钱包页面
+        <activity
+            android:name=".activity.MyWalletActivity"
+            android:screenOrientation="portrait" />
+        //提现/支付页面
+        <activity
+            android:name=".activity.DepositActivity"
+            android:screenOrientation="portrait" />
+        //支付返回结果查询
+        <activity
+            android:name=".activity.ResultActivity"
+            android:screenOrientation="portrait" />
+        //充值界面
+        <activity
+            android:name=".activity.RechargeActivity"
+            android:screenOrientation="portrait" />
+        //展示HTM5页面
+        <activity
+            android:name=".activity.WebWiewActivity"
+            android:screenOrientation="portrait" />
+        //钱包详情收支明细
+        <activity
+            android:name=".activity.MyWalletDetailsActivity"
+            android:screenOrientation="portrait" />
+        //绑定支付宝账号
+        <activity
+            android:name=".activity.BindingActivity"
+            android:screenOrientation="portrait" />
+        //修改后登录页面
+        //修改后注册页面
+        <activity
+            android:name=".activity.RegristActivity"
+            android:screenOrientation="portrait" />
+        //忘记密码（验证账户）
+        <activity
+            android:name=".activity.ForgetPassWordActivity"
+            android:screenOrientation="portrait" />
+        //分类页面
+        <activity
+            android:name=".activity.ClassiFyActivity"
+            android:screenOrientation="portrait" />
+        //分类详情页
+        <activity
+            android:name=".activity.ClassiFyInfoActivity"
+            android:screenOrientation="portrait" />
+        //设置页面
+        <activity
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        //选择地址页面
+        <activity
+            android:name=".activity.AddressActivity"
+            android:screenOrientation="portrait" />
+        //认证页面
+        <activity
+            android:name=".activity.AuthenticationActivity"
+            android:screenOrientation="portrait" />
+        //更多页面
+        <activity
+            android:name=".activity.MoreActivity"
+            android:screenOrientation="portrait" />
+        //问题反馈
+        <activity
+            android:name=".activity.WenTiActivity"
+            android:screenOrientation="portrait" />
+        //账号安全
+        <activity
+            android:name=".activity.UserSecurityActivity"
+            android:screenOrientation="portrait" />
+        //技能页面
+        <activity
+            android:name=".activity.SkillActivity"
+            android:screenOrientation="portrait" />
+        //发布约TA
+        <activity
+            android:name=".activity.ReleaseYueTaActivity"
+            android:screenOrientation="portrait" />
+        //发布动态
+        <activity
+            android:name=".activity.ReleaseDynamicActivity"
+            android:screenOrientation="portrait" />
+        //发布兼职
+        <activity
+            android:name=".activity.ReleasePartTimeJobActivity"
+            android:screenOrientation="portrait" />
+        //发布技能
+        <activity
+            android:name=".activity.ReleaseSkillActivity"
+            android:screenOrientation="portrait" />
+        //联系人
+        <activity
+            android:name=".activity.ContactsActivity"
+            android:screenOrientation="portrait" />
+        //关注页面
+        <activity
+            android:name=".activity.FollowActivity"
+            android:screenOrientation="portrait" />
+        //用户详情页
+        <activity
+            android:name=".activity.UserInfoDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.HomeSearchActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".activity.my.ExtensionActivity" />
+        <activity android:name=".activity.my.EditActivity" />
+        <activity android:name=".activity.my.LabelActivity" />
+        <activity android:name=".activity.my.CompanyActivity" />
+        <activity android:name=".activity.my.RealnameActivity" />
+        <activity android:name=".activity.my.ModifyActivity" />
+        <activity android:name=".activity.DetailsActivity" />
+        <activity android:name=".activity.home.MessageActivity" />
+        <activity android:name=".activity.PinglunActivity" />
+        <activity android:name=".activity.ZixunActivity" />
+        <activity android:name=".activity.PipeiActivity" />
+        <activity android:name=".activity.my.YouHuiJuanActivity" />
+        <activity android:name=".activity.dingdan.DingdanXQActivity" />
+        <activity android:name=".activity.dingdan.FukuanXQActivity" />
+        <activity android:name=".activity.dingdan.FukuanActivity" />
+        <activity android:name=".activity.dingdan.PingjiaQXActivity" />
+        <activity android:name=".activity.dingdan.tayue.DaiyingyaoQXActivity" />
+        <activity android:name=".activity.dingdan.tayue.JinxingQXActivity" />
+        <activity android:name=".activity.dingdan.tayue.WanchengQXActivity" />
+        <activity android:name=".activity.dingdan.myjianzhi.MyJianzhiActivity" />
+        <activity android:name=".activity.dingdan.myjianzhi.MyJinxingActivity" />
+        <activity android:name=".activity.dingdan.myjianzhi.MyWanchengActivity" />
+        <activity android:name=".activity.dingdan.fabu.FBaomingActivity" />
+        <activity android:name=".activity.dingdan.fabu.FJinxingActivity" />
+        <activity android:name=".activity.dingdan.fabu.FWanchengActivity" />
+        <activity android:name=".activity.LoginHlperActivity" />
+        <activity android:name=".activity.NewsLoginActivity" />
+        <activity android:name=".activity.JuaoActivity" />
+        <activity android:name=".activity.home.JianzhiQXActivity" />
+        <activity android:name=".activity.home.SearchtoActivity" />
+        <activity android:name=".activity.home.ChongzhiActivity" />
+        <activity android:name=".activity.home.QianDaoActivity" />
+        <activity android:name=".activity.home.ZhuanQianActivity" />
+        <activity android:name=".activity.my.XiugaiActivituy" />
+        <activity android:name=".activity.home.YaoqingActivity" />
+        <activity android:name=".activity.my.Xiugaipassword"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="10dp"
+        android:background="@mipmap/pic_bg_red">
+
+
+        <ImageView
+            android:id="@+id/ivLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:src="@mipmap/icon_quit_white"
+            />
+
+        <TextView
+            android:id="@+id/tvTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="钱包"
+            android:gravity="center"
+            android:textColor="@color/whit"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/DIMEN_36PX" />
+
+        <TextView
+            android:id="@+id/tvRightText"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="明细"
+            android:gravity="center"
+            android:textColor="@color/whit"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/DIMEN_28PX" />
+        <TextView
+            android:id="@+id/tvMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="666.66"
+            android:textColor="@color/whit"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/DIMEN_72PX" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="余额(元)"
+            android:textColor="@color/whit"
+            android:textSize="@dimen/DIMEN_28PX"
+            android:layout_below="@+id/tvMoney"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的账单"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_32PX"/>
+    <ListView
+        android:id="@+id/lv_my_wallet_list"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_weight="1"
+        android:dividerHeight="@dimen/DIMEN_20PX"
+        android:divider="#f5f5f5"
+        android:fadeScrollbars="false"
+        android:scrollbars="none"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:background="#f5f5f5"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_my_wallet_cz"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/yuanjiaobut"
+            android:text="充  值"
+            android:gravity="center"
+            android:textColor="@color/whit"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <TextView
+            android:id="@+id/tv_my_wallet_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_selected"
+            android:text="提  现"
+            android:gravity="center"
+            android:textColor="#fd6a6a"
+            android:textSize="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/DIMEN_30PX"
+    android:layout_marginBottom="@dimen/DIMEN_30PX"
+    android:layout_marginTop="@dimen/DIMEN_1PX"
+    android:layout_marginRight="@dimen/DIMEN_30PX"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_UserLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_yueta" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/DIMEN_10PX"
+            android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/DIMEN_10PX"
+            >
+
+            <TextView
+                android:id="@+id/tv_UserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="UI设计师"
+                android:textSize="@dimen/DIMEN_24PX"
+                android:gravity="center_vertical"
+                android:textColor="#333333"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/icon_User_1"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/icon_User_2"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/icon_User_3"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/icon_User_4"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+            <TextView
+                android:layout_width="@dimen/DIMEN_98PX"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/DIMEN_34PX"
+                android:textSize="14sp"
+                android:textColor="#fd6a6a"
+                android:text="500/天"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/DIMEN_10PX"
+        >
+
+        <com.jcodecraeer.xrecyclerview.XRecyclerView
+            android:id="@+id/rvUserPic"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/DIMEN_160PX"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/ivUserPic_1"
+            android:layout_width="@dimen/DIMEN_200PX"
+            android:layout_height="@dimen/DIMEN_150PX"
+            android:layout_weight="1"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/ivUserPic_2"
+            android:layout_width="@dimen/DIMEN_200PX"
+            android:layout_height="@dimen/DIMEN_150PX"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/DIMEN_10PX"
+            android:visibility="gone"
+
+            />
+        <ImageView
+            android:id="@+id/ivUserPic_3"
+            android:layout_width="@dimen/DIMEN_200PX"
+            android:layout_height="@dimen/DIMEN_150PX"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/DIMEN_10PX"
+            android:visibility="gone"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/DIMEN_40PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX">
+        <TextView
+            android:id="@+id/tv_User_Occupation"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京乞丐科技有限公司"
+            android:textSize="12sp"
+            android:textColor="#999999"
+            />
+
+        <TextView
+            android:id="@+id/tv_User_info"
+            android:layout_marginRight="@dimen/DIMEN_34PX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#999999"
+            android:text="大望路301"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="@drawable/bjyuanjiao"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_140PX"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/DIMEN_30PX"
+            android:paddingRight="@dimen/DIMEN_30PX">
+
+            <TextView
+                android:id="@+id/tv_my_wallet_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="注册"
+                android:textColor="@color/mytext_1"
+                android:textSize="@dimen/DIMEN_28PX" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_my_wallet_timer"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017.10.19"
+                android:textColor="@color/mytext_3"
+                android:textSize="@dimen/DIMEN_26PX" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_my_wallet_money"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/DIMEN_30PX"
+            android:textColor="@color/mytext_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+    </LinearLayout>
+</LinearLayout>

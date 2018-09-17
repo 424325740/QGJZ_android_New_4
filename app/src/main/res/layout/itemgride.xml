@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/gridItemText"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:layout_height="@dimen/DIMEN_64PX"
+        android:gravity="center"
+        android:background="@drawable/yuanjiaohome"
+        android:text="游泳"/>
+</LinearLayout>

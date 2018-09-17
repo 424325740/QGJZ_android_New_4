@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#f5f5f5"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/DIMEN_80PX"
+            >
+            <LinearLayout
+                android:background="@drawable/bjyuanjiao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/DIMEN_30PX"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="兼职名称"
+                        android:textColor="@color/mytext_1"
+                        android:textSize="@dimen/DIMEN_28PX" />
+
+                    <EditText
+                        android:id="@+id/etJobName"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="请输入兼职名称"
+                        android:gravity="right"
+                        android:background="@null"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_28PX"
+                        android:layout_marginLeft="@dimen/DIMEN_20PX"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/DIMEN_30PX"
+                    android:layout_marginRight="@dimen/DIMEN_30PX"
+                    android:background="#f5f5f5"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/DIMEN_1PX"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/DIMEN_30PX"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="工作地址"
+                        android:textColor="@color/mytext_1"
+                        android:textSize="@dimen/DIMEN_28PX" />
+
+                    <EditText
+                        android:id="@+id/etJobAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="right"
+                        android:hint="请输入工作地址"
+                        android:background="@null"
+                        android:textColor="@color/mytext_3"
+                        android:textSize="@dimen/DIMEN_28PX"
+                        android:layout_marginLeft="@dimen/DIMEN_20PX"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/DIMEN_30PX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bjyuanjiao">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/DIMEN_1PX"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/llStartTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="@dimen/DIMEN_1PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/DIMEN_30PX"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="开始时间"
+                            android:textColor="@color/mytext_1"
+                            android:textSize="@dimen/DIMEN_28PX" />
+
+                        <TextView
+                            android:id="@+id/tvStartTime"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="right"
+                            android:background="@null"
+                            android:textColor="@color/mytext_3"
+                            android:text="请选择开始时间"
+                            android:textSize="@dimen/DIMEN_28PX"
+                            />
+                        <ImageView
+                            android:layout_marginLeft="@dimen/DIMEN_10PX"
+                            android:layout_width="@dimen/DIMEN_18PX"
+                            android:layout_height="@dimen/DIMEN_10PX"
+                            android:background="@mipmap/btn_back"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/DIMEN_30PX"
+                        android:layout_marginRight="@dimen/DIMEN_30PX"
+                        android:background="#f5f5f5"/>
+                    <LinearLayout
+                        android:id="@+id/llEndTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginTop="@dimen/DIMEN_1PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/DIMEN_30PX"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="结束时间"
+                            android:textColor="@color/mytext_1"
+                            android:textSize="@dimen/DIMEN_28PX" />
+
+                        <TextView
+                            android:id="@+id/tvEndTime"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="right"
+                            android:background="@null"
+                            android:textColor="@color/mytext_3"
+                            android:text="请选择结束时间"
+                            android:textSize="@dimen/DIMEN_28PX"
+                            />
+                        <ImageView
+                            android:layout_marginLeft="@dimen/DIMEN_10PX"
+                            android:layout_width="@dimen/DIMEN_18PX"
+                            android:layout_height="@dimen/DIMEN_10PX"
+                            android:background="@mipmap/btn_back"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/DIMEN_30PX"
+                    android:layout_marginRight="@dimen/DIMEN_30PX"
+                    android:background="#f5f5f5"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/DIMEN_1PX"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/llMoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/DIMEN_88PX"
+                        android:layout_weight="1"
+                        android:layout_marginTop="@dimen/DIMEN_1PX"
+                        android:layout_marginRight="@dimen/DIMEN_10PX"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/DIMEN_30PX"
+                            android:text="价         钱"
+                            android:textColor="@color/mytext_1"
+                            android:textSize="@dimen/DIMEN_28PX" />
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"/>
+                        <EditText
+                            android:id="@+id/etMoney"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@null"
+                            android:paddingTop="@dimen/DIMEN_25PX"
+                            android:gravity="right"
+                            android:textColorHint="#fd6a6a"
+                            android:hint="请输入金额"
+                            android:textSize="@dimen/DIMEN_28PX"
+                            android:layout_marginLeft="@dimen/DIMEN_20PX"
+                            android:textColor="#fd6a6a"
+                            />
+                        <TextView
+                            android:layout_marginLeft="@dimen/DIMEN_16PX"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/DIMEN_16PX"
+                            android:text="元/"/>
+                        <LinearLayout
+                            android:id="@+id/llTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/tvTime"
+                                android:layout_marginRight="@dimen/DIMEN_16PX"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:text="选择时间"
+                                android:textColor="#fd6a6a"
+                                android:textSize="@dimen/DIMEN_28PX"
+                                />
+                            <ImageView
+                                android:layout_marginRight="@dimen/DIMEN_30PX"
+                                android:layout_gravity="center"
+                                android:layout_width="@dimen/DIMEN_18PX"
+                                android:layout_height="@dimen/DIMEN_10PX"
+                                android:background="@mipmap/btn_back"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/DIMEN_30PX"
+                    android:layout_marginRight="@dimen/DIMEN_30PX"
+                    android:background="#f5f5f5"/>
+                <LinearLayout
+                    android:id="@+id/llSettlementMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/DIMEN_1PX"
+                    android:layout_marginRight="@dimen/DIMEN_10PX"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/DIMEN_30PX"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="结算方式"
+                        android:textColor="@color/mytext_1"
+                        android:textSize="@dimen/DIMEN_28PX" />
+
+                    <TextView
+                        android:id="@+id/tvSettlementMode"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:hint="选择结算方式"
+                        android:gravity="right"
+                        android:background="@null"
+                        android:textColor="@color/mytext_1"
+                        android:textSize="@dimen/DIMEN_28PX"
+                        android:layout_marginLeft="@dimen/DIMEN_20PX"
+                        />
+                    <ImageView
+                        android:layout_marginLeft="@dimen/DIMEN_10PX"
+                        android:layout_width="@dimen/DIMEN_18PX"
+                        android:layout_height="@dimen/DIMEN_10PX"
+                        android:background="@mipmap/btn_back"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llJobContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:gravity="center_vertical"
+                android:background="@drawable/bjyuanjiao"
+                android:layout_marginTop="@dimen/DIMEN_30PX"
+                android:padding="@dimen/DIMEN_30PX"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="职责介绍"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_28PX" />
+
+                <EditText
+                    android:id="@+id/etJobContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="10dp"
+                    android:gravity="top"
+                    android:textSize="@dimen/DIMEN_26PX"
+                    android:maxLength="50"
+                    android:hint="请简单介绍您的兼职..."
+                    android:textColor="@color/mytext_1"
+                    android:textColorHint="@color/mytext_3"
+                    android:background="#f5f5f5"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llAdditionalContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bjyuanjiao"
+                android:layout_marginTop="@dimen/DIMEN_30PX"
+                android:gravity="center_vertical"
+                android:padding="@dimen/DIMEN_30PX"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="其他介绍"
+                    android:textColor="@color/mytext_1"
+                    android:textSize="@dimen/DIMEN_28PX" />
+
+                <EditText
+                    android:id="@+id/etAdditionalContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:padding="10dp"
+                    android:gravity="top"
+                    android:textSize="@dimen/DIMEN_26PX"
+                    android:maxLength="50"
+                    android:hint="请简单介绍您的其他要求...
+"
+                    android:textColor="@color/mytext_1"
+                    android:textColorHint="@color/mytext_3"
+                    android:background="#f5f5f5"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

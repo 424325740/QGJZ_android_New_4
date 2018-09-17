@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+    <LinearLayout
+        android:id="@+id/llPosition_Enterprise"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+
+        <ImageView
+            android:id="@+id/ivLeftQuit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/icon_quit_black"
+            android:paddingLeft="@dimen/DIMEN_20PX"
+            />
+
+        <TextView
+            android:id="@+id/tvFollowUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="关注的人"
+            android:textColor="@color/mytext_3"
+            android:textSize="@dimen/DIMEN_28PX"
+            android:layout_marginLeft="@dimen/DIMEN_60PX"/>
+
+        <TextView
+            android:id="@+id/tvFollowJob"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="关注的兼职"
+            android:textColor="@color/mytext_3"
+            android:textSize="@dimen/DIMEN_28PX"
+            android:layout_marginRight="@dimen/DIMEN_80PX"
+            />
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_marginTop="@dimen/DIMEN_1PX"
+        android:background="@color/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

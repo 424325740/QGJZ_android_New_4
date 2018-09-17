@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_load_dialog"
+        android:layout_centerVertical="true">
+
+        <ProgressBar
+            android:id="@+id/pb_jiazai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/DIMEN_10PX"
+            android:indeterminateTint="@color/my_blue"
+            style="@style/Base.Widget.AppCompat.ProgressBar"
+            android:padding="@dimen/DIMEN_30PX" />
+
+        <ImageView
+            android:id="@+id/iv_gif_load"
+            android:layout_width="@dimen/DIMEN_100PX"
+            android:layout_height="@dimen/DIMEN_100PX"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            android:src="@mipmap/icon_loading" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/erray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="网络错误"
+        android:visibility="gone" />
+</RelativeLayout>

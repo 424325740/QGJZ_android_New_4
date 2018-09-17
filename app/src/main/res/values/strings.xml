@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">乞丐兼职</string>
+    <string name="title_activity_string">标题</string>
+    <string name="cs">测试数据测试数据v测试数据测试数据测试数据测试数据测试数据测试数据测试数据测试数据测试数据测试数据测试数据测试数据</string>
+    <string name="manay">¥×</string>
+    <string name="main_home1">主页</string>
+    <string name="main_home2">附近</string>
+    <string name="main_home3"></string>
+    <string name="main_home4">订单</string>
+    <string name="main_home5">我的</string>
+
+    <string name="login">登录</string>
+    <string name="login_ts">其他登录方式</string>
+
+    <string name="phone">手机号</string>
+    <string name="name">真实姓名</string>
+    <string name="dj">等级</string>
+
+    <string name="qb">我的钱包</string>
+    <string name="jz">我的兼职</string>
+    <string name="rw">我的任务</string>
+    <string name="sc">我的收藏</string>
+    <string name="setup">设置</string>
+    <string name="fb">我的发布</string>
+    <string name="fk">意见反馈</string>
+    <string name="hz">商务合作</string>
+
+    <string name="message_1">消息中心</string>
+    <string name="message_2">乞丐推荐</string>
+    <string name="message_3">通讯录</string>
+
+    // 修改个人资料
+    <string name="my_name_rz">实名制</string>
+    <string name="my_name">昵称</string>
+    <string name="my_age">出生年月</string>
+    <string name="my_sex">性别</string>
+    <string name="my_city">城市</string>
+    <string name="my_school">学校</string>
+    <string name="my_undergo">联系方式</string>
+    <string name="my_wx">微信</string>
+
+    //实名认证
+    <string name="real_name">姓名</string>
+    <string name="real_name_ts">请输入您的姓名</string>
+    <string name="real_card">身份证号码</string>
+    <string name="real_card_ts">请输入您的身份证号码</string>
+
+    //发布详情页面
+    <string name="fb_money_timer">工作时段：</string>
+    <string name="fb_pay_style">结算方式：</string>
+    <string name="fb_job_type">兼职类型：</string>
+    <string name="fb_money">兼职报酬：</string>
+    <string name="fb_money_ts">请输入兼职报酬（元/天）</string>
+    <string name="fb_num_people">招聘人数：</string>
+    <string name="fb_num_people_ts">请输入招聘人数...</string>
+    <string name="fb_job_content">工作内容：</string>
+    <string name="fb_job_content_ts">请输入职位详细工作内容...</string>
+    <string name="fb_job_gift">岗位福利：</string>
+    <string name="fb_job_gift_ts">请输入职位福利...</string>
+    <string name="fb_job_require">岗位要求：</string>
+    <string name="fb_job_require_ts">请输入岗位要求...</string>
+    <string name="fb_address">工作地址：</string>
+    <string name="fb_name">联系姓名：</string>
+    <string name="fb_phone">联系电话：</string>
+    <string name="fb_zizhi">公司资质：</string>
+
+    //我的发布
+    <string name="my_fb_1">招聘中</string>
+    <string name="my_fb_2">进行中</string>
+    <string name="my_fb_3">已完成</string>
+    //我的兼职
+    <string name="my_jz_1">已报名</string>
+    <string name="my_jz_2">兼职中</string>
+    <string name="my_jz_3">已完成</string>
+    <string name="my_jz_4">其他</string>
+
+    //选择城市热门城市
+    <string name="city_1">北京市</string>
+    <string name="city_2">上海市</string>
+    <string name="city_3">广州市</string>
+    <string name="city_4">深圳市</string>
+    <string name="city_5">武汉市</string>
+    <string name="city_6">天津市</string>
+    <string name="city_7">西安市</string>
+    <string name="city_8">南京市</string>
+    <string name="city_9">杭州市</string>
+
+    //商务合作页面
+    <string name="business_title">官方网站</string>
+    <string name="business_phone">联系电话</string>
+    <string name="business_wx">微信公众号</string>
+    <string name="business_QQ">电子邮箱</string>
+    <string name="business_two">乞丐兼职</string>
+    <string name="tc">退出登录</string>
+    //发布结果
+    <string name="re_total_price">订单总价</string>
+    <string name="re_payment">实付金额</string>
+    <string name="re_out_trade_no">订单编号</string>
+    <string name="re_transaction_id">支付订单号</string>
+    <string name="re_addtime">下单时间</string>
+    <string name="re_endtime">付款时间</string>
+
+    <declare-styleable name="RoundAngleImageView">
+        <attr name="roundWidth" format="dimension" />
+        <attr name="roundHeight" format="dimension" />
+    </declare-styleable>
+</resources>

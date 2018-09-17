@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:paddingBottom="@dimen/DIMEN_10PX"
+        android:paddingLeft="@dimen/DIMEN_30PX"
+        android:paddingTop="@dimen/DIMEN_10PX"
+        android:text="定位城市"
+        android:textColor="#999"
+        android:textSize="@dimen/DIMEN_28PX" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_city_dq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="北京"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_80PX"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/DIMEN_80PX"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:paddingBottom="@dimen/DIMEN_10PX"
+        android:paddingLeft="@dimen/DIMEN_30PX"
+        android:paddingTop="@dimen/DIMEN_10PX"
+        android:text="热门城市"
+        android:textColor="#999"
+        android:textSize="@dimen/DIMEN_28PX" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_city_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_2PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_1"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+
+        <TextView
+            android:id="@+id/tv_city_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_2PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_2"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+
+        <TextView
+            android:id="@+id/tv_city_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_2PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_3"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_city_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_4"
+
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+
+        <TextView
+            android:id="@+id/tv_city_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_5"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+
+        <TextView
+            android:id="@+id/tv_city_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_6"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_city_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_2PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_7"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+
+        <TextView
+            android:id="@+id/tv_city_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_2PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_8"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+
+        <TextView
+            android:id="@+id/tv_city_9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginRight="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_2PX"
+            android:layout_weight="1"
+            android:background="@drawable/bg_address_city"
+            android:gravity="center"
+            android:paddingBottom="@dimen/DIMEN_15PX"
+            android:paddingTop="@dimen/DIMEN_15PX"
+            android:text="@string/city_9"
+            android:textColor="@color/text_home_1"
+            android:textSize="@dimen/DIMEN_28PX" />
+    </LinearLayout>
+</LinearLayout>

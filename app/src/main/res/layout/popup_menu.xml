@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ffffff"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/DIMEN_50PX"
+        android:layout_marginRight="@dimen/DIMEN_50PX"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+        <!-- 约TA -->
+        <LinearLayout
+            android:id="@+id/ll_YueTa"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_520PX"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_200PX"
+                android:src="@mipmap/icon_yueta" />
+
+            <TextView
+                android:layout_marginTop="@dimen/DIMEN_20PX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="约TA"
+                android:textColor="#333333"
+                android:textSize="@dimen/DIMEN_28PX" />
+        </LinearLayout>
+
+        <!-- 发布动态 -->
+
+        <LinearLayout
+            android:id="@+id/ll_Dynamic"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_520PX"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_200PX"
+                android:src="@mipmap/icon_fbdt" />
+
+            <TextView
+                android:layout_marginTop="@dimen/DIMEN_20PX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动态"
+                android:textColor="#333333"
+                android:textSize="@dimen/DIMEN_28PX" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/DIMEN_50PX"
+        android:layout_marginRight="@dimen/DIMEN_50PX"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <!-- 发布兼职 -->
+
+        <LinearLayout
+            android:id="@+id/ll_PartTimeJob"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_240PX"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_200PX"
+                android:src="@mipmap/fbrw" />
+
+            <TextView
+                android:layout_marginTop="@dimen/DIMEN_20PX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布兼职"
+                android:textColor="#333333"
+                android:textSize="@dimen/DIMEN_28PX" />
+        </LinearLayout>
+
+        <!-- 发布技能 -->
+
+        <LinearLayout
+            android:id="@+id/ll_Skill"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_240PX"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/DIMEN_200PX"
+                android:layout_height="@dimen/DIMEN_200PX"
+                android:src="@mipmap/fbjn" />
+
+            <TextView
+                android:layout_marginTop="@dimen/DIMEN_20PX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布技能"
+                android:textColor="#333333"
+                android:textSize="@dimen/DIMEN_28PX" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/pop_rl_click"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/DIMEN_95PX"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/DIMEN_80PX"
+            android:layout_height="@dimen/DIMEN_80PX"
+            android:layout_centerInParent="true"
+            android:src="@drawable/bg_fb_function" />
+
+        <ImageView
+            android:id="@+id/pop_iv_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/add" />
+    </RelativeLayout>
+
+</RelativeLayout>

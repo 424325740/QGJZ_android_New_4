@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/DIMEN_600PX"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_whit_yj"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dlg_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/DIMEN_40PX"
+            android:gravity="center"
+            android:text="提示"
+            android:textColor="@color/text_1"
+            android:textSize="@dimen/DIMEN_32PX" />
+
+        <TextView
+            android:id="@+id/tv_dlg_message_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/DIMEN_60PX"
+            android:layout_marginTop="@dimen/DIMEN_60PX"
+            android:gravity="center"
+            android:text="心得还未填写完，您确认要离开吗？"
+            android:textColor="@color/mytext_2"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_1PX"
+            android:background="@color/lines" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_88PX"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_dlg_left_text"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/mytext_3"
+                android:textSize="@dimen/DIMEN_32PX" />
+
+            <View
+                android:layout_width="@dimen/DIMEN_1PX"
+                android:layout_height="fill_parent"
+                android:background="@color/lines" />
+
+            <TextView
+                android:id="@+id/tv_dlg_right_text"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/my_details_yello"
+                android:textSize="@dimen/DIMEN_32PX" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

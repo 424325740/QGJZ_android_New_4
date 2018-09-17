@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_88PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@drawable/bjyuanjiao">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:text="用户评分:"
+            android:textColor="#333333"
+            android:textSize="@dimen/DIMEN_30PX" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/MyRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:stepSize="1" />
+
+        <!--各项属性根据字面可以理解-->
+        <!--<com.hedgehog.ratingbar.RatingBar
+            android:id="@+id/rat_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_gravity="center"
+            app:clickable="false"
+            app:halfstart="true"
+            app:starCount="5"
+            app:starEmpty="@mipmap/pic_xingxing_nor"
+            app:starFill="@mipmap/pic_xingxing_pre"
+            app:starHalf="@mipmap/pic_xingxing_pre"
+            app:starImageHeight="30dp"
+            app:starImagePadding="10dp"
+            app:starImageWidth="40dp" />-->
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_88PX"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:layout_marginTop="@dimen/DIMEN_30PX"
+        android:background="@drawable/bjyuanjiao"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/DIMEN_30PX"
+        android:text="评价"
+        android:textColor="#333333"
+        android:textSize="@dimen/DIMEN_30PX" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/DIMEN_60PX"
+        android:layout_marginRight="@dimen/DIMEN_60PX" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/DIMEN_30PX"
+        android:layout_marginRight="@dimen/DIMEN_30PX"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_30PX">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/DIMEN_88PX"
+                android:layout_height="@dimen/DIMEN_88PX"
+                android:src="@mipmap/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/DIMEN_24PX"
+                android:text="多么的优秀"
+                android:textColor="#333333"
+                android:textSize="@dimen/DIMEN_30PX" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/DIMEN_10PX"
+                android:src="@mipmap/icon_boy" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/DIMEN_30PX"
+            android:layout_marginTop="@dimen/DIMEN_20PX"
+            android:text="约她约她约她约她约她约她"
+            android:textColor="@color/mytext_3"
+            android:textSize="@dimen/DIMEN_24PX" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_30PX" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_dismiss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/DIMEN_96PX"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:layout_marginRight="@dimen/DIMEN_15PX"
+            android:layout_marginTop="@dimen/DIMEN_10PX"
+            android:background="@drawable/bg_circular_all"
+            android:text="拍照"
+            android:textColor="#333333"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_pick_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/DIMEN_96PX"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:layout_marginRight="@dimen/DIMEN_15PX"
+            android:layout_marginTop="@dimen/DIMEN_2PX"
+            android:background="@drawable/bg_circular_all"
+            android:text="从相册选择"
+            android:textColor="#333333"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/DIMEN_96PX"
+            android:layout_marginBottom="@dimen/DIMEN_15PX"
+            android:layout_marginLeft="@dimen/DIMEN_15PX"
+            android:layout_marginRight="@dimen/DIMEN_15PX"
+            android:layout_marginTop="@dimen/DIMEN_15PX"
+            android:background="@drawable/bg_circular_all"
+            android:text="取消"
+            android:textColor="@color/text_red" />
+    </LinearLayout>
+
+</RelativeLayout>

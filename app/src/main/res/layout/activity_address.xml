@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qigaikj.parttimejob.view.PtClearEditText
+        android:id="@+id/et_address_clear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_96PX"
+        android:background="@android:color/white"
+        android:drawableLeft="@mipmap/icon_activity_search_two"
+        android:hint="请输入城市名称/拼音"
+        android:paddingLeft="@dimen/DIMEN_30PX"
+        android:singleLine="true"
+        android:textSize="@dimen/DIMEN_30PX" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_1PX"
+        android:background="@color/lines" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@+id/lv_ddress__list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:divider="@null" />
+
+        <TextView
+            android:id="@+id/tv_activity_ddress__dialog"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="a"
+            android:textColor="#999"
+            android:textSize="@dimen/DIMEN_60PX"
+            android:visibility="invisible" />
+
+        <com.qigaikj.parttimejob.view.PtSideBar
+            android:id="@+id/sb_activity_addressbook"
+            android:layout_width="@dimen/DIMEN_30PX"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+</LinearLayout>
